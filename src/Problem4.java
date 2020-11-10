@@ -33,32 +33,24 @@ public class Problem4 {
         int out=0;
         int i=0;
         int j=1;
-        int first = m.get(array[i]);
-        int second = m.get(array[j]);
+        int first ;
+        int second ;
         for(; j<array.length ; i++ , j++){
+            first = m.get(array[i]);
+            second = m.get(array[j]);
 
-            if(first >= second){
-                out += first;
-            }
-            else{
-                out += (second-first);
-                i++;
-                j++;
-            }
-            if(j==array.length){
-                i++;
                 if(first >= second){
                     out += first;
                 }
                 else{
-                    out += (second-first);
-                    i++;
-                    j++;
+                    out -= first;
                 }
-                return out;
             }
 
-        }
+        first = m.get(array[i]);//update the value
+        out+= first;//last element of array
+
+
 
         return out;
 

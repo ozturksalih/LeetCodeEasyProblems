@@ -5,7 +5,7 @@ public class Main {
 //      Problem3 p3 = new Problem3();
 //      System.out.println(p3.isPalindrome(121));
         Problem4 p4 = new Problem4();
-        System.out.println(p4.romanToInt("III"));
+        System.out.println(p4.romanToInt("D"));
 
 
     }
