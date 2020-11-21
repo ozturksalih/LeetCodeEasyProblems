@@ -1,16 +1,20 @@
+package Mix;
+
 public class Main {
     public static void main(String[] args) {
-//        Problem2 p2 = new Problem2();
+//        Mix.Problem2 p2 = new Mix.Problem2();
 //        System.out.println(p2.reverse(1534236469));
-//        Problem3 p3 = new Problem3();
+//        Mix.Problem3 p3 = new Mix.Problem3();
 //        System.out.println(p3.isPalindrome(121));
-//        Problem4 p4 = new Problem4();
+//        Mix.Problem4 p4 = new Mix.Problem4();
 //        System.out.println(p4.romanToInt("D"));
-//        Problem5 p5 = new Problem5();
+//        Mix.Problem5 p5 = new Mix.Problem5();
 //        String[] array = {"flower" , "fly","flight" , "flexible"};
 //        System.out.println(p5.longestCommonPrefix(array));
-        Problem6 p6 = new Problem6();
-        System.out.println(p6.isValid("({})"));
+//        Mix.Problem6 p6 = new Mix.Problem6();
+//        System.out.println(p6.isValid("({})"));
+        Problem7 p7 = new Problem7();
+
 
     }
 }
