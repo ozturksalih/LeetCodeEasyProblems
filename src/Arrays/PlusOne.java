@@ -16,7 +16,7 @@ public class PlusOne {
 
         int len = digits.length;
 
-        for(int i = len-1; i != 0 ; i--){
+        for(int i = len-1; i >= 0 ; i--){
             if(digits[i] < 9){
                 digits[i]++;
                 return digits;//
@@ -38,7 +38,7 @@ public class PlusOne {
 
     public static void main(String[] args) {
 
-        int[] digits = {9,9,9};
+        int[] digits = {0};
         int[] array = plusOne(digits);
 
         for (int j : array) {

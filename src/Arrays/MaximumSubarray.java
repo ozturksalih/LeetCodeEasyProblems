@@ -19,7 +19,7 @@ public class MaximumSubarray {
         return globalMax;
     }
     public static void main(String[] args) {
-        int[] array = {2,3,45,1};
+        int[] array = {2,3,-4,1};
         System.out.println(maxSubArray(array));
 
     }
